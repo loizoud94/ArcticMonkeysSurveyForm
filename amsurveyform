@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Who the fuck are Arctic Monkeys?</p>
+  <form id="survey-form">
+    <fieldset>
+      <label id="name-label" for="name">Name: <input required id="name" type="text" placeholder="Enter your name" /></label>
+      <label id="email-label" for="email">Email address: <input required id="email" type="email" placeholder="Enter your email address" /></label>
+    </fieldset>
+    
+    <fieldset>
+      <label id="number-label" for="number">How many albums have the Arctic Monkeys released as of 2023? <input id="number" type="number" min="1" max="500" placeholder="Enter a number" /></label>
+    </fieldset>
+
+    <fieldset>
+      <label id="fav-album" for="fav-album">Pick your favourite Arctic Monkeys LP
+        <select id="dropdown" name="fav-album">
+          <option value="">(select one)</option>
+          <option value="1">Whatever People Say I Am, That's What I'm Not</option>
+          <option value="2">Favourite Worst Nightmare</option>
+          <option value="3">Humbug</option>
+          <option value="4">Suck It And See</option>
+          <option value="5">AM</option>
+          <option value="6">Tranquility Base Hotel and Casino</option>
+          <option value="7">The Car</option>
+        </select>
+      </label>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Who is your favourite active member of the band?</legend>
+      <label for="alex-turner"><input id="alex-turner" type="radio" name="fav-member" value="AT" checked /> Alex Turner</label>
+      <label for="nick-o-malley"><input id="nick-o-malley" type="radio" name="fav-member" value="NOM" /> Nick O'Malley</label>
+      <label for="jamie-cook"><input id="jamie-cook" type="radio" name="fav-member" value="JC" /> Jamie Cook</label>
+      <label for="matt-helders"><input id="matt-helders" type="radio" name="fav-member" value="MH" /> Matt Helders</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pick your Arctic desert island discs</legend>
+      <input id="mardy-bum" type="checkbox" name="song" value="mardy-bum"> <label for="mardy-bum">Mardy Bum</label>
+      <input id="vampires" type="checkbox" name="song" value="vampires"> <label for="vampires">Perhaps Vampires Is A Bit Strong But...</label>
+      <input id="brianstorm" type="checkbox" name="song" value="brianstorm"> <label for="brianstorm">Brianstorm</label>
+      <input id="505" type="checkbox" name="song" value="505"> <label for="505">505</label>
+      <input id="secret-door" type="checkbox" name="song" value="secret-door"> <label for="secret-door">Secret Door</label>
+      <input id="cornerstone" type="checkbox" name="song" value="cornerstone"> <label for="cornerstone">Cornerstone</label>
+      <input id="black-treacle" type="checkbox" name="song" value="black-treacle"> <label for="black-treacle">Black Treacle</label>
+      <input id="piledriver-waltz" type="checkbox" name="song" value="piledriver-waltz"> <label for="piledriver-waltz">Piledriver Waltz</label>
+      <input id="arabella" type="checkbox" name="song" value="arabella"> <label for="arabella">Arabella</label>
+      <input id="fireside" type="checkbox" name="song" value="fireside"> <label for="fireside">Fireside</label>
+      <input id="star-treatment" type="checkbox" name="song" value="star-treatment"> <label for="star-treatment">Star Treatment</label>
+      <input id="the-ultracheese" type="checkbox" name="song" value="the-ultracheese"> <label for="the-ultracheese">The Ultracheese</label>
+      <input id="mirrorball" type="checkbox" name="song" value="mirrorball"> <label for="mirrorball">There'd Better Be A Mirrorball</label>
+      <input id="body-paint" type="checkbox" name="song" value="body-paint"> <label for="body-paint">Body Paint</label>
+    </fieldset>
+
+    <fieldset>
+      <label for="story">Tell us your Monkeys story: 
+        <textarea id="story" name="story" rows="3" cols="30" placeholder="Leave blank if you wish"></textarea>
+    </fieldset>
+    
+    <input type="submit" value="Submit" id="submit" />
+  </form>
+</body>
+</html>
