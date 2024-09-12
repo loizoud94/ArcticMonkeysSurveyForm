@@ -8,8 +8,8 @@ This project is a survey form designed with HTML and CSS, themed around the Arct
 
 This repository contains two files:
 
-- `index.html` — the structure of the survey form.
-- `styles.css` — the styling for the form, designed to reflect an Arctic Monkeys aesthetic with a dark theme and bold colors.
+- `amsurveyform.html`: The HTML file containing the structure of the form.
+- `styles.css`: The CSS file providing the layout and theme of the form.
 
 ## Features
 
@@ -17,11 +17,6 @@ This repository contains two files:
 - **Form Validation**: Users must enter valid information in required fields such as name, email, and the number of albums.
 - **Dropdown and Checkbox Options**: Includes a dropdown to select your favorite album and checkboxes to choose your desert island Arctic Monkeys tracks.
 - **Responsive Design**: The form is fully responsive, ensuring a seamless experience on different screen sizes.
-
-## Files
-
-- `amsurveyform.html`: The HTML file containing the structure of the form.
-- `styles.css`: The CSS file providing the layout and theme of the form.
 
 ## Preview
 
