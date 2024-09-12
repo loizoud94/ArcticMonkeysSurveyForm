@@ -1,0 +1,101 @@
+body {
+  background-color: #000;  /* Black background */
+  color: #fff;  /* White text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+p {
+  text-align: center;
+  font-style: italic;
+  color: #ccc;
+}
+
+/* Form Styles */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #111;  /* Darker black for the form background */
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+}
+
+/* Fieldset styles */
+fieldset {
+  border: 1px solid #444;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+legend {
+  font-size: 1.2em;
+  color: #f9a825;  /* Yellow for emphasis */
+  margin-bottom: 10px;
+}
+
+/* Ensure checkboxes and labels are inline and options are on separate lines */
+label {
+  display: inline-block; /* Keep label and checkbox on the same line */
+  margin-bottom: 10px; /* Space between checkbox options */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px; /* Space between checkbox and label */
+  vertical-align: middle; /* Align checkboxes with text */
+}
+
+/* Ensure each checkbox-label pair is on its own line */
+.checkbox-group label {
+  display: block;
+  margin-bottom: 5px; /* Adds spacing between each option */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #f9a825;  /* Arctic Monkeys-inspired yellow button */
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #e0a800;
+}
+
+a {
+  color: #f9a825;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
